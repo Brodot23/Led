@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>STOPLAMP BRODOT</title>
+  <style>
+    body { font-family: sans-serif; background: #111; color: #eee; padding: 20px; }
+    h1 { color: #ffa500; }
+    h2 { color: #ff6347; margin-top: 30px; }
+    label { display: block; margin-top: 10px; }
+    input, select, button { padding: 8px; margin-top: 5px; font-size: 16px; width: 100%; }
+    button { background-color: #444; color: #fff; border: none; cursor: pointer; }
+    button:hover { background-color: #666; }
+    .section { margin-bottom: 40px; border-bottom: 1px solid #333; padding-bottom: 20px; }
+
+    /* Style tambahan untuk checkbox form */
+    #idleEffectForm {
+        max-height: 300px;
+        overflow-y: auto;
+        padding: 10px;
+        background: #222;
+        border-radius: 5px;
+        margin: 10px 0;
+    }
+
+    #idleEffectForm label {
+        display: block;
+        padding: 5px 0;
+        cursor: pointer;
+    }
+
+    #idleEffectForm input[type="checkbox"] {
+        width: auto;
+        margin-right: 10px;
+    }
+
+    #idleEffectForm label:hover {
+        background: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>STOPLAMP BRODOT</h1>
+
+  <!-- Pengaturan Awal -->
+  <div class="section">
+    <h2>Pengaturan Awal</h2>
+    <label for="displayMode">Gabungan teks + animasi:</label>
+    <select id="displayMode">
+      <option value="text">Teks Saja</option>
+      <option value="animation">Animasi Saja</option>
+      <option value="both">Gabung Teks + Animasi</option>
+    </select>
+    <label for="gapDuration">Jeda Antar Gabungan (ms):</label>
+    <input type="number" id="gapDuration" min="0" value="1000">
+    <button onclick="saveGeneralSettings()">Simpan Pengaturan</button>
+  </div>
+
+  <!-- Tampilan Teks -->
+  <div class="section">
+    <h2>Tampilan Teks</h2>
+    <label for="textInput">Teks:</label>
+    <input type="text" id="textInput" placeholder="Masukkan teks...">
+    <label><input type="checkbox" id="boldText"> Tampilkan sebagai Bold</label><br><br>
+    <label for="textSpeed">Kecepatan Teks:</label>
+    <input type="number" id="textSpeed" min="1" max="1000" value="100">
+    <button onclick="saveTextSettings()">Simpan Pengaturan</button>
+  </div>
+
+  <!-- Efek Idle -->
+  <div class="section">
+    <h2>Efek Idle</h2>
+    <label for="idleEffect">Pilih Efek Idle (Boleh lebih dari satu):</label>
+    <form id="idleEffectForm">
+      <label><input type="checkbox" name="idleEffect" value="0"> Mode 1 - Animasi Kelinci</label><br>
+      <label><input type="checkbox" name="idleEffect" value="1"> Mode 2 - Animasi Lari</label><br>
+      <label><input type="checkbox" name="idleEffect" value="2"> Mode 3 - Police Mode 1</label><br>
+      <label><input type="checkbox" name="idleEffect" value="3"> Mode 4 - Police Mode 2</label><br>
+      <label><input type="checkbox" name="idleEffect" value="4"> Mode 5 - Police Mode 3</label><br>
+      <label><input type="checkbox" name="idleEffect" value="5"> Mode 6 - Police Mode 4</label><br>
+      <label><input type="checkbox" name="idleEffect" value="6"> Mode 7 - Strobo Mode 1</label><br>
+      <label><input type="checkbox" name="idleEffect" value="7"> Mode 8 - Strobo Mode 2</label><br>
+      <label><input type="checkbox" name="idleEffect" value="8"> Mode 9 - Strobo Mode 3</label><br>
+      <label><input type="checkbox" name="idleEffect" value="9"> Mode 10 - Strobo Mode 4</label><br>
+      <label><input type="checkbox" name="idleEffect" value="10"> Mode 11 - Running Left</label><br>
+      <label><input type="checkbox" name="idleEffect" value="11"> Mode 12 - Running Right</label><br>
+      <label><input type="checkbox" name="idleEffect" value="12"> Mode 13 - Running In-Out</label><br>
+      <label><input type="checkbox" name="idleEffect" value="13"> Mode 14 - Running Out-In</label><br>
+      <label><input type="checkbox" name="idleEffect" value="14"> Mode 15 - Stack Left</label><br>
+      <label><input type="checkbox" name="idleEffect" value="15"> Mode 16 - Stack Right</label><br>
+      <label><input type="checkbox" name="idleEffect" value="16"> Mode 17 - Stack In-Out</label><br>
+      <label><input type="checkbox" name="idleEffect" value="17"> Mode 18 - Stack Out-In</label><br>
+      <label><input type="checkbox" name="idleEffect" value="18"> Mode 19 - Wave Mode 1</label><br>
+      <label><input type="checkbox" name="idleEffect" value="19"> Mode 20 - Wave Mode 2</label><br>
+      <label><input type="checkbox" name="idleEffect" value="20"> Mode 21 - Wave Mode 3</label><br>
+      <label><input type="checkbox" name="idleEffect" value="21"> Mode 22 - Wave Mode 4</label><br>
+      <label><input type="checkbox" name="idleEffect" value="22"> Mode 23 - Blink All</label><br>
+      <label><input type="checkbox" name="idleEffect" value="23"> Mode 24 - Blink Left</label><br>
+      <label><input type="checkbox" name="idleEffect" value="24"> Mode 25 - Blink Right</label><br>
+      <label><input type="checkbox" name="idleEffect" value="25"> Mode 26 - Blink In-Out</label><br>
+      <label><input type="checkbox" name="idleEffect" value="26"> Mode 27 - Blink Out-In</label><br>
+      <label><input type="checkbox" name="idleEffect" value="27"> Mode 28 - Random Mode 1</label><br>
+      <label><input type="checkbox" name="idleEffect" value="28"> Mode 29 - Random Mode 2</label><br>
+      <label><input type="checkbox" name="idleEffect" value="29"> Mode 30 - Random Mode 3</label><br>
+      <label><input type="checkbox" name="idleEffect" value="30"> Mode 31 - Random Mode 4</label><br>
+      <label><input type="checkbox" name="idleEffect" value="31"> Mode 32 - Custom Animation 1</label><br>
+      <label><input type="checkbox" name="idleEffect" value="32"> Mode 33 - Custom Animation 2</label><br>
+      <label><input type="checkbox" name="idleEffect" value="33"> Mode 34 - Custom Animation 3</label><br>
+      <label><input type="checkbox" name="idleEffect" value="34"> Mode 35 - Custom Animation 4</label><br>
+      <label><input type="checkbox" name="idleEffect" value="35"> Mode 36 - Sparkle Effect</label><br>
+      <label><input type="checkbox" name="idleEffect" value="36"> Mode 37 - Fire Effect</label><br>
+      <label><input type="checkbox" name="idleEffect" value="37"> Mode 38 - Water Effect</label><br>
+      <label><input type="checkbox" name="idleEffect" value="38"> Mode 39 - Rainbow Cycle</label><br>
+      <label><input type="checkbox" name="idleEffect" value="39"> Mode 40 - Color Fade</label><br>
+      <label><input type="checkbox" name="idleEffect" value="40"> Mode 41 - Morse Code</label><br>
+      <label><input type="checkbox" name="idleEffect" value="41"> Mode 42 - Sound Reactive 1</label><br>
+      <label><input type="checkbox" name="idleEffect" value="42"> Mode 43 - Sound Reactive 2</label><br>
+      <label><input type="checkbox" name="idleEffect" value="43"> Mode 44 - Meteor Rain</label><br>
+      <label><input type="checkbox" name="idleEffect" value="44"> Mode 45 - Bounce Effect</label><br>
+      <label><input type="checkbox" name="idleEffect" value="45"> Mode 46 - Snake Effect</label><br>
+      <label><input type="checkbox" name="idleEffect" value="46"> Mode 47 - Spiral Effect</label><br>
+      <label><input type="checkbox" name="idleEffect" value="47"> Mode 48 - Zigzag Pattern</label><br>
+      <label><input type="checkbox" name="idleEffect" value="48"> Mode 49 - Diamond Pattern</label><br>
+      <label><input type="checkbox" name="idleEffect" value="49"> Mode 50 - Cross Pattern</label><br>
+      <label><input type="checkbox" name="idleEffect" value="50"> Mode 51 - Star Pattern</label><br>
+      <label><input type="checkbox" name="idleEffect" value="51"> Mode 52 - Heart Pattern</label><br>
+      <label><input type="checkbox" name="idleEffect" value="52"> Mode 53 - Pacman Effect</label><br>
+      <label><input type="checkbox" name="idleEffect" value="53"> Mode 54 - Matrix Effect</label><br>
+      <label><input type="checkbox" name="idleEffect" value="54"> Mode 55 - Clock Effect</label><br>
+      <label><input type="checkbox" name="idleEffect" value="55"> Mode 56 - Weather Effect</label><br>
+      <label><input type="checkbox" name="idleEffect" value="56"> Mode 57 - Temperature Display</label><br>
+      <label><input type="checkbox" name="idleEffect" value="57"> Mode 58 - Humidity Display</label><br>
+      <label><input type="checkbox" name="idleEffect" value="58"> Mode 59 - Battery Level</label><br>
+      <label><input type="checkbox" name="idleEffect" value="59"> Mode 60 - Signal Strength</label><br>
+    </form>
+    <label for="idleDuration">Durasi Idle (ms):</label>
+    <input type="number" id="idleDuration" min="100" value="1000">
+    <button onclick="saveIdleSettings()">Simpan Pengaturan</button>
+  </div>
+
+  <!-- Mode Sein & Rem -->
+  <div class="section">
+    <h2>Mode Sein & Rem</h2>
+    <label for="seinMode">Mode Sein:</label>
+    <select id="seinMode">
+      <option value="0">Arrow Running</option>
+      <option value="1">Double Arrows</option>
+      <option value="2">Sliding</option>
+      <option value="3">Running Dots</option>
+      <option value="4">Full Arrow</option>
+    </select>
+    <label for="remMode">Mode Rem:</label>
+    <select id="remMode">
+      <option value="0">STOP !!! (Berkedip)</option>
+      <option value="1">Semua LED Menyala Berkedip</option>
+    </select>
+    <label for="seinSpeed">Kecepatan Kedip Sein (ms):</label>
+    <input type="number" id="seinSpeed" min="50" value="200">
+    <label for="remSpeed">Kecepatan Kedip Rem (ms):</label>
+    <input type="number" id="remSpeed" min="50" value="200">
+    <button onclick="saveSeinRemSettings()">Simpan Mode Sein & Rem</button>
+  </div>
+
+  <!-- Kecerahan -->
+  <div class="section">
+    <h2>Kecerahan</h2>
+    <label for="brightness">Kecerahan (0-15):</label>
+    <input type="number" id="brightness" min="0" max="15" value="8">
+    <button onclick="saveBrightness()">Simpan Pengaturan</button>
+  </div>
+
+  <!-- WiFi Setup -->
+  <div class="section">
+    <h2>WiFi Setup</h2>
+    <label for="ssid">SSID:</label>
+    <input type="text" id="ssid">
+    <label for="password">Password:</label>
+    <input type="password" id="password">
+    <button onclick="saveWiFi()">Simpan WiFi</button>
+  </div>
+
+  <script>
+    function saveGeneralSettings() {
+        const displayMode = document.getElementById('displayMode').value;
+        const gapDuration = document.getElementById('gapDuration').value;
+        
+        const data = {
+            displayMode: displayMode,
+            gapDuration: parseInt(gapDuration)
+        };
+        
+        fetch('/api/general-settings', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        })
+        .then(response => response.json())
+        .then(data => {
+            alert('Pengaturan umum berhasil disimpan!');
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert('Gagal menyimpan pengaturan!');
+        });
+    }
+
+    function saveTextSettings() {
+        const text = document.getElementById('textInput').value;
+        const isBold = document.getElementById('boldText').checked;
+        const speed = document.getElementById('textSpeed').value;
+        
+        const data = {
+            text: text,
+            bold: isBold,
+            speed: parseInt(speed)
+        };
+        
+        fetch('/api/text-settings', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        })
+        .then(response => response.json())
+        .then(data => {
+            alert('Pengaturan teks berhasil disimpan!');
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert('Gagal menyimpan pengaturan!');
+        });
+    }
+
+    function saveIdleSettings() {
+        const selectedEffects = Array.from(document.querySelectorAll('#idleEffectForm input[type="checkbox"]:checked'))
+            .map(checkbox => checkbox.value);
+        const idleDuration = document.getElementById('idleDuration').value;
+        
+        const data = {
+            selectedEffects: selectedEffects,
+            duration: parseInt(idleDuration)
+        };
+        
+        fetch('/api/idle-settings', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        })
+        .then(response => response.json())
+        .then(data => {
+            alert('Pengaturan idle berhasil disimpan!');
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert('Gagal menyimpan pengaturan!');
+        });
+    }
+
+    function saveSeinRemSettings() {
+        const seinMode = document.getElementById('seinMode').value;
+        const remMode = document.getElementById('remMode').value;
+        const seinSpeed = document.getElementById('seinSpeed').value;
+        const remSpeed = document.getElementById('remSpeed').value;
+        
+        const data = {
+            seinMode: parseInt(seinMode),
+            remMode: parseInt(remMode),
+            seinSpeed: parseInt(seinSpeed),
+            remSpeed: parseInt(remSpeed)
+        };
+        
+        fetch('/api/sein-rem-settings', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        })
+        .then(response => response.json())
+        .then(data => {
+            alert('Pengaturan sein & rem berhasil disimpan!');
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert('Gagal menyimpan pengaturan!');
+        });
+    }
+
+    function saveBrightness() {
+        const brightness = document.getElementById('brightness').value;
+        
+        fetch('/api/brightness', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ brightness: parseInt(brightness) })
+        })
+        .then(response => response.json())
+        .then(data => {
+            alert('Pengaturan kecerahan berhasil disimpan!');
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert('Gagal menyimpan pengaturan!');
+        });
+    }
+
+    function saveWiFi() {
+        const ssid = document.getElementById('ssid').value;
+        const password = document.getElementById('password').value;
+        
+        const data = {
+            ssid: ssid,
+            password: password
+        };
+        
+        fetch('/api/wifi-settings', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        })
+        .then(response => response.json())
+        .then(data => {
+            alert('Pengaturan WiFi berhasil disimpan!');
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert('Gagal menyimpan pengaturan!');
+        });
+    }
+
+    // Load saved settings when page loads
+    function loadSavedSettings() {
+        // Load General Settings
+        fetch('/api/general-settings')
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById('displayMode').value = data.displayMode;
+            document.getElementById('gapDuration').value = data.gapDuration;
+        })
+        .catch(error => console.error('Error:', error));
+
+        // Load Text Settings
+        fetch('/api/text-settings')
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById('textInput').value = data.text;
+            document.getElementById('boldText').checked = data.bold;
+            document.getElementById('textSpeed').value = data.speed;
+        })
+        .catch(error => console.error('Error:', error));
+
+        // Load Idle Settings
+        fetch('/api/idle-settings')
+        .then(response => response.json())
+        .then(data => {
+            const checkboxes = document.querySelectorAll('#idleEffectForm input[type="checkbox"]');
+            checkboxes.forEach(checkbox => {
+                checkbox.checked = data.selectedEffects.includes(checkbox.value);
+            });
+            document.getElementById('idleDuration').value = data.duration;
+        })
+        .catch(error => console.error('Error:', error));
+
+        // Load Sein & Rem Settings
+        fetch('/api/sein-rem-settings')
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById('seinMode').value = data.seinMode;
+            document.getElementById('remMode').value = data.remMode;
+            document.getElementById('seinSpeed').value = data.seinSpeed;
+            document.getElementById('remSpeed').value = data.remSpeed;
+        })
+        .catch(error => console.error('Error:', error));
+
+        // Load Brightness
+        fetch('/api/brightness')
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById('brightness').value = data.brightness;
+        })
+        .catch(error => console.error('Error:', error));
+    }
+
+    // Load settings when page loads
+    document.addEventListener('DOMContentLoaded', loadSavedSettings);
+  </script>
+
+</body>
+</html>
