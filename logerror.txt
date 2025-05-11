@@ -1,0 +1,4477 @@
+Arduino: 1.8.19 (Windows Store 1.8.57.0) (Windows 10), Board: "NodeMCU 1.0 (ESP-12E Module), 80 MHz, Flash, Disabled (new aborts on oom), Disabled, All SSL ciphers (most compatible), 32KB cache + 32KB IRAM (balanced), Use pgm_read macros for IRAM/PROGMEM, 4MB (FS:2MB OTA:~1019KB), 2, v2 Lower Memory, Disabled, None, Only Sketch, 115200"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:252:2: error: #endif without #if
+
+  252 | #endif // ANIMATIONS_H
+
+      |  ^~~~~
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:252:2: error: #endif without #if
+
+  252 | #endif // ANIMATIONS_H
+
+      |  ^~~~~
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:4:
+
+animations.h:252:2: error: #endif without #if
+
+  252 | #endif // ANIMATIONS_H
+
+      |  ^~~~~
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:4:
+
+C:\Users\User\Documents\Arduino\60animasi\display.h:17: warning: "MATRIX_COUNT" redefined
+
+   17 | #define MATRIX_COUNT 4      // Jumlah modul LED matrix yang digunakan
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.h:4,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+C:\Users\User\Documents\Arduino\60animasi\settings.h:111: note: this is the location of the previous definition
+
+  111 | #define MATRIX_COUNT 8
+
+      | 
+
+C:\Users\User\Documents\Arduino\60animasi\animations.cpp:11: warning: "CHAR_WIDTH" redefined
+
+   11 | #define CHAR_WIDTH 6
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.h:4,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+C:\Users\User\Documents\Arduino\60animasi\settings.h:114: note: this is the location of the previous definition
+
+  114 | #define CHAR_WIDTH 8
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\Arduino\60animasi\display.h:17: warning: "MATRIX_COUNT" redefined
+
+   17 | #define MATRIX_COUNT 4      // Jumlah modul LED matrix yang digunakan
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:4,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\Arduino\60animasi\settings.h:111: note: this is the location of the previous definition
+
+  111 | #define MATRIX_COUNT 8
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:19:5: error: 'B11111111' was not declared in this scope
+
+   19 |     B11111111,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:19:5: note: the macro 'B11111111' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:532: note: it was later defined here
+
+  532 | #define B11111111 255
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:20:5: error: 'B11111111' was not declared in this scope
+
+   20 |     B11111111,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:20:5: note: the macro 'B11111111' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:532: note: it was later defined here
+
+  532 | #define B11111111 255
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:19:5: error: 'B11111111' was not declared in this scope
+
+   19 |     B11111111,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:19:5: note: the macro 'B11111111' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:532: note: it was later defined here
+
+  532 | #define B11111111 255
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:21:5: error: 'B11111111' was not declared in this scope
+
+   21 |     B11111111,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:21:5: note: the macro 'B11111111' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:532: note: it was later defined here
+
+  532 | #define B11111111 255
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:20:5: error: 'B11111111' was not declared in this scope
+
+   20 |     B11111111,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:20:5: note: the macro 'B11111111' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:532: note: it was later defined here
+
+  532 | #define B11111111 255
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:22:5: error: 'B11111111' was not declared in this scope
+
+   22 |     B11111111,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:22:5: note: the macro 'B11111111' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:532: note: it was later defined here
+
+  532 | #define B11111111 255
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:23:5: error: 'B11111111' was not declared in this scope
+
+   23 |     B11111111,
+
+      |     ^~~~~~~~~
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:21:5: error: 'B11111111' was not declared in this scope
+
+   21 |     B11111111,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:23:5: note: the macro 'B11111111' had not yet been defined
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:21:5: note: the macro 'B11111111' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:532: note: it was later defined here
+
+  532 | #define B11111111 255
+
+      | 
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:532: note: it was later defined here
+
+  532 | #define B11111111 255
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:24:5: error: 'B11111111' was not declared in this scope
+
+   24 |     B11111111,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:24:5: note: the macro 'B11111111' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:532: note: it was later defined here
+
+  532 | #define B11111111 255
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:22:5: error: 'B11111111' was not declared in this scope
+
+   22 |     B11111111,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:22:5: note: the macro 'B11111111' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:532: note: it was later defined here
+
+  532 | #define B11111111 255
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:25:5: error: 'B11111111' was not declared in this scope
+
+   25 |     B11111111,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:25:5: note: the macro 'B11111111' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:532: note: it was later defined here
+
+  532 | #define B11111111 255
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:23:5: error: 'B11111111' was not declared in this scope
+
+   23 |     B11111111,
+
+      |     ^~~~~~~~~
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:26:5: error: 'B11111111' was not declared in this scope
+
+   26 |     B11111111
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:23:5: note: the macro 'B11111111' had not yet been defined
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:26:5: note: the macro 'B11111111' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:532: note: it was later defined here
+
+  532 | #define B11111111 255
+
+      | 
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:532: note: it was later defined here
+
+  532 | #define B11111111 255
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:24:5: error: 'B11111111' was not declared in this scope
+
+   24 |     B11111111,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:24:5: note: the macro 'B11111111' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:532: note: it was later defined here
+
+  532 | #define B11111111 255
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:31:5: error: 'B00000000' was not declared in this scope
+
+   31 |     B00000000, // Frame 1
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:31:5: note: the macro 'B00000000' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:30: note: it was later defined here
+
+   30 | #define B00000000 0
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:25:5: error: 'B11111111' was not declared in this scope
+
+   25 |     B11111111,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:25:5: note: the macro 'B11111111' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:532: note: it was later defined here
+
+  532 | #define B11111111 255
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:32:5: error: 'B11111111' was not declared in this scope
+
+   32 |     B11111111,
+
+      |     ^~~~~~~~~
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:26:5: error: 'B11111111' was not declared in this scope
+
+   26 |     B11111111
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:32:5: note: the macro 'B11111111' had not yet been defined
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:26:5: note: the macro 'B11111111' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:532: note: it was later defined here
+
+  532 | #define B11111111 255
+
+      | 
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:532: note: it was later defined here
+
+  532 | #define B11111111 255
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:33:5: error: 'B00000000' was not declared in this scope
+
+   33 |     B00000000,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:33:5: note: the macro 'B00000000' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:30: note: it was later defined here
+
+   30 | #define B00000000 0
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:31:5: error: 'B00000000' was not declared in this scope
+
+   31 |     B00000000, // Frame 1
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:31:5: note: the macro 'B00000000' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:30: note: it was later defined here
+
+   30 | #define B00000000 0
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:34:5: error: 'B11111111' was not declared in this scope
+
+   34 |     B11111111,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:34:5: note: the macro 'B11111111' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:532: note: it was later defined here
+
+  532 | #define B11111111 255
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:32:5: error: 'B11111111' was not declared in this scope
+
+   32 |     B11111111,
+
+      |     ^~~~~~~~~
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:35:5: error: 'B00000000' was not declared in this scope
+
+   35 |     B00000000,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:32:5: note: the macro 'B11111111' had not yet been defined
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:35:5: note: the macro 'B00000000' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:30: note: it was later defined here
+
+   30 | #define B00000000 0
+
+      | 
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:532: note: it was later defined here
+
+  532 | #define B11111111 255
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:36:5: error: 'B11111111' was not declared in this scope
+
+   36 |     B11111111,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:36:5: note: the macro 'B11111111' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:532: note: it was later defined here
+
+  532 | #define B11111111 255
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:33:5: error: 'B00000000' was not declared in this scope
+
+   33 |     B00000000,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:33:5: note: the macro 'B00000000' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:30: note: it was later defined here
+
+   30 | #define B00000000 0
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:37:5: error: 'B00000000' was not declared in this scope
+
+   37 |     B00000000,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:37:5: note: the macro 'B00000000' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:30: note: it was later defined here
+
+   30 | #define B00000000 0
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:34:5: error: 'B11111111' was not declared in this scope
+
+   34 |     B11111111,
+
+      |     ^~~~~~~~~
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:38:5: error: 'B11111111' was not declared in this scope
+
+   38 |     B11111111  // Frame 8
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:38:5: note: the macro 'B11111111' had not yet been defined
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:34:5: note: the macro 'B11111111' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:532: note: it was later defined here
+
+  532 | #define B11111111 255
+
+      | 
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:532: note: it was later defined here
+
+  532 | #define B11111111 255
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:43:5: error: 'B10101010' was not declared in this scope
+
+   43 |     B10101010,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:43:5: note: the macro 'B10101010' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:447: note: it was later defined here
+
+  447 | #define B10101010 170
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:35:5: error: 'B00000000' was not declared in this scope
+
+   35 |     B00000000,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:35:5: note: the macro 'B00000000' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:30: note: it was later defined here
+
+   30 | #define B00000000 0
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:44:5: error: 'B01010101' was not declared in this scope
+
+   44 |     B01010101,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:44:5: note: the macro 'B01010101' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:320: note: it was later defined here
+
+  320 | #define B01010101 85
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:36:5: error: 'B11111111' was not declared in this scope
+
+   36 |     B11111111,
+
+      |     ^~~~~~~~~
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:45:5: error: 'B10101010' was not declared in this scope
+
+   45 |     B10101010,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:36:5: note: the macro 'B11111111' had not yet been defined
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:45:5: note: the macro 'B10101010' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:447: note: it was later defined here
+
+  447 | #define B10101010 170
+
+      | 
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:532: note: it was later defined here
+
+  532 | #define B11111111 255
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:46:5: error: 'B01010101' was not declared in this scope
+
+   46 |     B01010101,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:46:5: note: the macro 'B01010101' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:320: note: it was later defined here
+
+  320 | #define B01010101 85
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:37:5: error: 'B00000000' was not declared in this scope
+
+   37 |     B00000000,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:37:5: note: the macro 'B00000000' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:30: note: it was later defined here
+
+   30 | #define B00000000 0
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:47:5: error: 'B10101010' was not declared in this scope
+
+   47 |     B10101010,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:47:5: note: the macro 'B10101010' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:447: note: it was later defined here
+
+  447 | #define B10101010 170
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:38:5: error: 'B11111111' was not declared in this scope
+
+   38 |     B11111111  // Frame 8
+
+      |     ^~~~~~~~~
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:48:5: error: 'B01010101' was not declared in this scope
+
+   48 |     B01010101,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:48:5: note: the macro 'B01010101' had not yet been defined
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:38:5: note: the macro 'B11111111' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:320: note: it was later defined here
+
+  320 | #define B01010101 85
+
+      | 
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:532: note: it was later defined here
+
+  532 | #define B11111111 255
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:49:5: error: 'B10101010' was not declared in this scope
+
+   49 |     B10101010,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:49:5: note: the macro 'B10101010' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:447: note: it was later defined here
+
+  447 | #define B10101010 170
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:43:5: error: 'B10101010' was not declared in this scope
+
+   43 |     B10101010,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:43:5: note: the macro 'B10101010' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:447: note: it was later defined here
+
+  447 | #define B10101010 170
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:50:5: error: 'B01010101' was not declared in this scope
+
+   50 |     B01010101
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:50:5: note: the macro 'B01010101' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:320: note: it was later defined here
+
+  320 | #define B01010101 85
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:44:5: error: 'B01010101' was not declared in this scope
+
+   44 |     B01010101,
+
+      |     ^~~~~~~~~
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:56:5: error: 'B10000000' was not declared in this scope
+
+   56 |     B10000000, // Frame 1
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:56:5: note: the macro 'B10000000' had not yet been defined
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:44:5: note: the macro 'B01010101' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:405: note: it was later defined here
+
+  405 | #define B10000000 128
+
+      | 
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:320: note: it was later defined here
+
+  320 | #define B01010101 85
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:45:5: error: 'B10101010' was not declared in this scope
+
+   45 |     B10101010,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:45:5: note: the macro 'B10101010' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:447: note: it was later defined here
+
+  447 | #define B10101010 170
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:57:5: error: 'B11000000' was not declared in this scope
+
+   57 |     B11000000,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:57:5: note: the macro 'B11000000' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:469: note: it was later defined here
+
+  469 | #define B11000000 192
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:46:5: error: 'B01010101' was not declared in this scope
+
+   46 |     B01010101,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:46:5: note: the macro 'B01010101' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:320: note: it was later defined here
+
+  320 | #define B01010101 85
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:58:5: error: 'B11100000' was not declared in this scope
+
+   58 |     B11100000,
+
+      |     ^~~~~~~~~
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:47:5: error: 'B10101010' was not declared in this scope
+
+   47 |     B10101010,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:58:5: note: the macro 'B11100000' had not yet been defined
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:47:5: note: the macro 'B10101010' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:501: note: it was later defined here
+
+  501 | #define B11100000 224
+
+      | 
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:447: note: it was later defined here
+
+  447 | #define B10101010 170
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:59:5: error: 'B11110000' was not declared in this scope
+
+   59 |     B11110000,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:59:5: note: the macro 'B11110000' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:517: note: it was later defined here
+
+  517 | #define B11110000 240
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:48:5: error: 'B01010101' was not declared in this scope
+
+   48 |     B01010101,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:48:5: note: the macro 'B01010101' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:320: note: it was later defined here
+
+  320 | #define B01010101 85
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:60:5: error: 'B11100000' was not declared in this scope
+
+   60 |     B11100000,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:60:5: note: the macro 'B11100000' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:501: note: it was later defined here
+
+  501 | #define B11100000 224
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:61:5: error: 'B11000000' was not declared in this scope
+
+   61 |     B11000000,
+
+      |     ^~~~~~~~~
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:49:5: error: 'B10101010' was not declared in this scope
+
+   49 |     B10101010,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:61:5: note: the macro 'B11000000' had not yet been defined
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:49:5: note: the macro 'B10101010' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:469: note: it was later defined here
+
+  469 | #define B11000000 192
+
+      | 
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:447: note: it was later defined here
+
+  447 | #define B10101010 170
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:50:5: error: 'B01010101' was not declared in this scope
+
+   50 |     B01010101
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:50:5: note: the macro 'B01010101' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:320: note: it was later defined here
+
+  320 | #define B01010101 85
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:62:5: error: 'B10000000' was not declared in this scope
+
+   62 |     B10000000,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:62:5: note: the macro 'B10000000' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:405: note: it was later defined here
+
+  405 | #define B10000000 128
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:63:5: error: 'B00000000' was not declared in this scope
+
+   63 |     B00000000  // Frame 8
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:63:5: note: the macro 'B00000000' had not yet been defined
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:56:5: error: 'B10000000' was not declared in this scope
+
+   56 |     B10000000, // Frame 1
+
+      |     ^~~~~~~~~
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:30: note: it was later defined here
+
+   30 | #define B00000000 0
+
+      | 
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:56:5: note: the macro 'B10000000' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:405: note: it was later defined here
+
+  405 | #define B10000000 128
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:57:5: error: 'B11000000' was not declared in this scope
+
+   57 |     B11000000,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:57:5: note: the macro 'B11000000' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:469: note: it was later defined here
+
+  469 | #define B11000000 192
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:68:5: error: 'B00000001' was not declared in this scope
+
+   68 |     B00000001, // Frame 1
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:68:5: note: the macro 'B00000001' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:38: note: it was later defined here
+
+   38 | #define B00000001 1
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:58:5: error: 'B11100000' was not declared in this scope
+
+   58 |     B11100000,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:58:5: note: the macro 'B11100000' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:501: note: it was later defined here
+
+  501 | #define B11100000 224
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:69:5: error: 'B00000011' was not declared in this scope
+
+   69 |     B00000011,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:69:5: note: the macro 'B00000011' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:52: note: it was later defined here
+
+   52 | #define B00000011 3
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:59:5: error: 'B11110000' was not declared in this scope
+
+   59 |     B11110000,
+
+      |     ^~~~~~~~~
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:70:5: error: 'B00000111' was not declared in this scope
+
+   70 |     B00000111,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:59:5: note: the macro 'B11110000' had not yet been defined
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:70:5: note: the macro 'B00000111' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:517: note: it was later defined here
+
+  517 | #define B11110000 240
+
+      | 
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:76: note: it was later defined here
+
+   76 | #define B00000111 7
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:60:5: error: 'B11100000' was not declared in this scope
+
+   60 |     B11100000,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:60:5: note: the macro 'B11100000' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:501: note: it was later defined here
+
+  501 | #define B11100000 224
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:71:5: error: 'B00001111' was not declared in this scope
+
+   71 |     B00001111,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:71:5: note: the macro 'B00001111' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:116: note: it was later defined here
+
+  116 | #define B00001111 15
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:61:5: error: 'B11000000' was not declared in this scope
+
+   61 |     B11000000,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:61:5: note: the macro 'B11000000' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:469: note: it was later defined here
+
+  469 | #define B11000000 192
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:72:5: error: 'B00000111' was not declared in this scope
+
+   72 |     B00000111,
+
+      |     ^~~~~~~~~
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:62:5: error: 'B10000000' was not declared in this scope
+
+   62 |     B10000000,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:62:5: note: the macro 'B10000000' had not yet been defined
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:72:5: note: the macro 'B00000111' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:405: note: it was later defined here
+
+  405 | #define B10000000 128
+
+      | 
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:76: note: it was later defined here
+
+   76 | #define B00000111 7
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:73:5: error: 'B00000011' was not declared in this scope
+
+   73 |     B00000011,
+
+      |     ^~~~~~~~~
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:63:5: error: 'B00000000' was not declared in this scope
+
+   63 |     B00000000  // Frame 8
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:73:5: note: the macro 'B00000011' had not yet been defined
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:63:5: note: the macro 'B00000000' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:52: note: it was later defined here
+
+   52 | #define B00000011 3
+
+      | 
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:30: note: it was later defined here
+
+   30 | #define B00000000 0
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:74:5: error: 'B00000001' was not declared in this scope
+
+   74 |     B00000001,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:74:5: note: the macro 'B00000001' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:38: note: it was later defined here
+
+   38 | #define B00000001 1
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:68:5: error: 'B00000001' was not declared in this scope
+
+   68 |     B00000001, // Frame 1
+
+      |     ^~~~~~~~~
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:75:5: error: 'B00000000' was not declared in this scope
+
+   75 |     B00000000  // Frame 8
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:68:5: note: the macro 'B00000001' had not yet been defined
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:75:5: note: the macro 'B00000000' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:30: note: it was later defined here
+
+   30 | #define B00000000 0
+
+      | 
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:38: note: it was later defined here
+
+   38 | #define B00000001 1
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:69:5: error: 'B00000011' was not declared in this scope
+
+   69 |     B00000011,
+
+      |     ^~~~~~~~~
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:80:5: error: 'B10000001' was not declared in this scope
+
+   80 |     B10000001, // Frame 1
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:69:5: note: the macro 'B00000011' had not yet been defined
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:80:5: note: the macro 'B10000001' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:52: note: it was later defined here
+
+   52 | #define B00000011 3
+
+      | 
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:406: note: it was later defined here
+
+  406 | #define B10000001 129
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:81:5: error: 'B11000011' was not declared in this scope
+
+   81 |     B11000011,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:81:5: note: the macro 'B11000011' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:472: note: it was later defined here
+
+  472 | #define B11000011 195
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:70:5: error: 'B00000111' was not declared in this scope
+
+   70 |     B00000111,
+
+      |     ^~~~~~~~~
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:82:5: error: 'B11100111' was not declared in this scope
+
+   82 |     B11100111,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:82:5: note: the macro 'B11100111' had not yet been defined
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:70:5: note: the macro 'B00000111' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:508: note: it was later defined here
+
+  508 | #define B11100111 231
+
+      | 
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:76: note: it was later defined here
+
+   76 | #define B00000111 7
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:83:5: error: 'B11111111' was not declared in this scope
+
+   83 |     B11111111,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:83:5: note: the macro 'B11111111' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:532: note: it was later defined here
+
+  532 | #define B11111111 255
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:71:5: error: 'B00001111' was not declared in this scope
+
+   71 |     B00001111,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:71:5: note: the macro 'B00001111' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:116: note: it was later defined here
+
+  116 | #define B00001111 15
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:84:5: error: 'B11100111' was not declared in this scope
+
+   84 |     B11100111,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:84:5: note: the macro 'B11100111' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:508: note: it was later defined here
+
+  508 | #define B11100111 231
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:72:5: error: 'B00000111' was not declared in this scope
+
+   72 |     B00000111,
+
+      |     ^~~~~~~~~
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:85:5: error: 'B11000011' was not declared in this scope
+
+   85 |     B11000011,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:72:5: note: the macro 'B00000111' had not yet been defined
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:85:5: note: the macro 'B11000011' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:76: note: it was later defined here
+
+   76 | #define B00000111 7
+
+      | 
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:472: note: it was later defined here
+
+  472 | #define B11000011 195
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:86:5: error: 'B10000001' was not declared in this scope
+
+   86 |     B10000001,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:86:5: note: the macro 'B10000001' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:406: note: it was later defined here
+
+  406 | #define B10000001 129
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:73:5: error: 'B00000011' was not declared in this scope
+
+   73 |     B00000011,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:73:5: note: the macro 'B00000011' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:52: note: it was later defined here
+
+   52 | #define B00000011 3
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:87:5: error: 'B00000000' was not declared in this scope
+
+   87 |     B00000000  // Frame 8
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:87:5: note: the macro 'B00000000' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:30: note: it was later defined here
+
+   30 | #define B00000000 0
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:74:5: error: 'B00000001' was not declared in this scope
+
+   74 |     B00000001,
+
+      |     ^~~~~~~~~
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:93:5: error: 'B11111111' was not declared in this scope
+
+   93 |     B11111111, // Frame 1
+
+      |     ^~~~~~~~~
+
+60animasi:89:23: error: invalid digit "9" in octal constant
+
+   89 | Current Date: 2025-05-09 20:30:05 UTC
+
+      |                       ^~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:74:5: note: the macro 'B00000001' had not yet been defined
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:93:5: note: the macro 'B11111111' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:38: note: it was later defined here
+
+   38 | #define B00000001 1
+
+      | 
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:532: note: it was later defined here
+
+  532 | #define B11111111 255
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:94:5: error: 'B01111110' was not declared in this scope
+
+   94 |     B01111110,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:94:5: note: the macro 'B01111110' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:402: note: it was later defined here
+
+  402 | #define B01111110 126
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:75:5: error: 'B00000000' was not declared in this scope
+
+   75 |     B00000000  // Frame 8
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:75:5: note: the macro 'B00000000' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:30: note: it was later defined here
+
+   30 | #define B00000000 0
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:95:5: error: 'B00111100' was not declared in this scope
+
+   95 |     B00111100,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:95:5: note: the macro 'B00111100' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:267: note: it was later defined here
+
+  267 | #define B00111100 60
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:80:5: error: 'B10000001' was not declared in this scope
+
+   80 |     B10000001, // Frame 1
+
+      |     ^~~~~~~~~
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:96:5: error: 'B00011000' was not declared in this scope
+
+   96 |     B00011000,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:96:5: note: the macro 'B00011000' had not yet been defined
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:80:5: note: the macro 'B10000001' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:152: note: it was later defined here
+
+  152 | #define B00011000 24
+
+      | 
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:406: note: it was later defined here
+
+  406 | #define B10000001 129
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:81:5: error: 'B11000011' was not declared in this scope
+
+   81 |     B11000011,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:81:5: note: the macro 'B11000011' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:472: note: it was later defined here
+
+  472 | #define B11000011 195
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:97:5: error: 'B00011000' was not declared in this scope
+
+   97 |     B00011000,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:97:5: note: the macro 'B00011000' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:152: note: it was later defined here
+
+  152 | #define B00011000 24
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:98:5: error: 'B00111100' was not declared in this scope
+
+   98 |     B00111100,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:98:5: note: the macro 'B00111100' had not yet been defined
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:82:5: error: 'B11100111' was not declared in this scope
+
+   82 |     B11100111,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:82:5: note: the macro 'B11100111' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:267: note: it was later defined here
+
+  267 | #define B00111100 60
+
+      | 
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:508: note: it was later defined here
+
+  508 | #define B11100111 231
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:99:5: error: 'B01111110' was not declared in this scope
+
+   99 |     B01111110,
+
+      |     ^~~~~~~~~
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:83:5: error: 'B11111111' was not declared in this scope
+
+   83 |     B11111111,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:99:5: note: the macro 'B01111110' had not yet been defined
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:83:5: note: the macro 'B11111111' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:402: note: it was later defined here
+
+  402 | #define B01111110 126
+
+      | 
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:532: note: it was later defined here
+
+  532 | #define B11111111 255
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:100:5: error: 'B11111111' was not declared in this scope
+
+  100 |     B11111111  // Frame 8
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:100:5: note: the macro 'B11111111' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:532: note: it was later defined here
+
+  532 | #define B11111111 255
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:84:5: error: 'B11100111' was not declared in this scope
+
+   84 |     B11100111,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:84:5: note: the macro 'B11100111' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:508: note: it was later defined here
+
+  508 | #define B11100111 231
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:105:5: error: 'B10101010' was not declared in this scope
+
+  105 |     B10101010, // Frame 1
+
+      |     ^~~~~~~~~
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:85:5: error: 'B11000011' was not declared in this scope
+
+   85 |     B11000011,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:85:5: note: the macro 'B11000011' had not yet been defined
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:105:5: note: the macro 'B10101010' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:472: note: it was later defined here
+
+  472 | #define B11000011 195
+
+      | 
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:447: note: it was later defined here
+
+  447 | #define B10101010 170
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:106:5: error: 'B01010101' was not declared in this scope
+
+  106 |     B01010101,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:106:5: note: the macro 'B01010101' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:320: note: it was later defined here
+
+  320 | #define B01010101 85
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:86:5: error: 'B10000001' was not declared in this scope
+
+   86 |     B10000001,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:86:5: note: the macro 'B10000001' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:406: note: it was later defined here
+
+  406 | #define B10000001 129
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:107:5: error: 'B10101010' was not declared in this scope
+
+  107 |     B10101010,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:107:5: note: the macro 'B10101010' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:447: note: it was later defined here
+
+  447 | #define B10101010 170
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:87:5: error: 'B00000000' was not declared in this scope
+
+   87 |     B00000000  // Frame 8
+
+      |     ^~~~~~~~~
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:108:5: error: 'B01010101' was not declared in this scope
+
+  108 |     B01010101,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:87:5: note: the macro 'B00000000' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:30: note: it was later defined here
+
+   30 | #define B00000000 0
+
+      | 
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:108:5: note: the macro 'B01010101' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:320: note: it was later defined here
+
+  320 | #define B01010101 85
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:93:5: error: 'B11111111' was not declared in this scope
+
+   93 |     B11111111, // Frame 1
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:93:5: note: the macro 'B11111111' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:532: note: it was later defined here
+
+  532 | #define B11111111 255
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:109:5: error: 'B10101010' was not declared in this scope
+
+  109 |     B10101010,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:109:5: note: the macro 'B10101010' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:447: note: it was later defined here
+
+  447 | #define B10101010 170
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:94:5: error: 'B01111110' was not declared in this scope
+
+   94 |     B01111110,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:94:5: note: the macro 'B01111110' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:402: note: it was later defined here
+
+  402 | #define B01111110 126
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:110:5: error: 'B01010101' was not declared in this scope
+
+  110 |     B01010101,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:110:5: note: the macro 'B01010101' had not yet been defined
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:95:5: error: 'B00111100' was not declared in this scope
+
+   95 |     B00111100,
+
+      |     ^~~~~~~~~
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:320: note: it was later defined here
+
+  320 | #define B01010101 85
+
+      | 
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:95:5: note: the macro 'B00111100' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:267: note: it was later defined here
+
+  267 | #define B00111100 60
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:111:5: error: 'B10101010' was not declared in this scope
+
+  111 |     B10101010,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:111:5: note: the macro 'B10101010' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:447: note: it was later defined here
+
+  447 | #define B10101010 170
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:96:5: error: 'B00011000' was not declared in this scope
+
+   96 |     B00011000,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:96:5: note: the macro 'B00011000' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:152: note: it was later defined here
+
+  152 | #define B00011000 24
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:112:5: error: 'B01010101' was not declared in this scope
+
+  112 |     B01010101  // Frame 8
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:112:5: note: the macro 'B01010101' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:320: note: it was later defined here
+
+  320 | #define B01010101 85
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:97:5: error: 'B00011000' was not declared in this scope
+
+   97 |     B00011000,
+
+      |     ^~~~~~~~~
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:117:5: error: 'B11111111' was not declared in this scope
+
+  117 |     B11111111, // Frame 1
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:97:5: note: the macro 'B00011000' had not yet been defined
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:117:5: note: the macro 'B11111111' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:152: note: it was later defined here
+
+  152 | #define B00011000 24
+
+      | 
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:532: note: it was later defined here
+
+  532 | #define B11111111 255
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:98:5: error: 'B00111100' was not declared in this scope
+
+   98 |     B00111100,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:98:5: note: the macro 'B00111100' had not yet been defined
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:118:5: error: 'B00000000' was not declared in this scope
+
+  118 |     B00000000,
+
+      |     ^~~~~~~~~
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:267: note: it was later defined here
+
+  267 | #define B00111100 60
+
+      | 
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:118:5: note: the macro 'B00000000' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:30: note: it was later defined here
+
+   30 | #define B00000000 0
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:99:5: error: 'B01111110' was not declared in this scope
+
+   99 |     B01111110,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:99:5: note: the macro 'B01111110' had not yet been defined
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:119:5: error: 'B11111111' was not declared in this scope
+
+  119 |     B11111111,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:119:5: note: the macro 'B11111111' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:402: note: it was later defined here
+
+  402 | #define B01111110 126
+
+      | 
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:532: note: it was later defined here
+
+  532 | #define B11111111 255
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:100:5: error: 'B11111111' was not declared in this scope
+
+  100 |     B11111111  // Frame 8
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:100:5: note: the macro 'B11111111' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:532: note: it was later defined here
+
+  532 | #define B11111111 255
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:120:5: error: 'B00000000' was not declared in this scope
+
+  120 |     B00000000,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:120:5: note: the macro 'B00000000' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:30: note: it was later defined here
+
+   30 | #define B00000000 0
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:105:5: error: 'B10101010' was not declared in this scope
+
+  105 |     B10101010, // Frame 1
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:105:5: note: the macro 'B10101010' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:447: note: it was later defined here
+
+  447 | #define B10101010 170
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:121:5: error: 'B11111111' was not declared in this scope
+
+  121 |     B11111111,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:121:5: note: the macro 'B11111111' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:532: note: it was later defined here
+
+  532 | #define B11111111 255
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:106:5: error: 'B01010101' was not declared in this scope
+
+  106 |     B01010101,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:106:5: note: the macro 'B01010101' had not yet been defined
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:122:5: error: 'B00000000' was not declared in this scope
+
+  122 |     B00000000,
+
+      |     ^~~~~~~~~
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:320: note: it was later defined here
+
+  320 | #define B01010101 85
+
+      | 
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:122:5: note: the macro 'B00000000' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:30: note: it was later defined here
+
+   30 | #define B00000000 0
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:107:5: error: 'B10101010' was not declared in this scope
+
+  107 |     B10101010,
+
+      |     ^~~~~~~~~
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:123:5: error: 'B11111111' was not declared in this scope
+
+  123 |     B11111111,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:107:5: note: the macro 'B10101010' had not yet been defined
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:123:5: note: the macro 'B11111111' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:447: note: it was later defined here
+
+  447 | #define B10101010 170
+
+      | 
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:532: note: it was later defined here
+
+  532 | #define B11111111 255
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:108:5: error: 'B01010101' was not declared in this scope
+
+  108 |     B01010101,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:108:5: note: the macro 'B01010101' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:320: note: it was later defined here
+
+  320 | #define B01010101 85
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+animations.h:124:5: error: 'B00000000' was not declared in this scope
+
+  124 |     B00000000  // Frame 8
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:124:5: note: the macro 'B00000000' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:30: note: it was later defined here
+
+   30 | #define B00000000 0
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:109:5: error: 'B10101010' was not declared in this scope
+
+  109 |     B10101010,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:109:5: note: the macro 'B10101010' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:447: note: it was later defined here
+
+  447 | #define B10101010 170
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:110:5: error: 'B01010101' was not declared in this scope
+
+  110 |     B01010101,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:110:5: note: the macro 'B01010101' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:320: note: it was later defined here
+
+  320 | #define B01010101 85
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:111:5: error: 'B10101010' was not declared in this scope
+
+  111 |     B10101010,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:111:5: note: the macro 'B10101010' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:447: note: it was later defined here
+
+  447 | #define B10101010 170
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:112:5: error: 'B01010101' was not declared in this scope
+
+  112 |     B01010101  // Frame 8
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:112:5: note: the macro 'B01010101' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:320: note: it was later defined here
+
+  320 | #define B01010101 85
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:117:5: error: 'B11111111' was not declared in this scope
+
+  117 |     B11111111, // Frame 1
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:117:5: note: the macro 'B11111111' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:532: note: it was later defined here
+
+  532 | #define B11111111 255
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:118:5: error: 'B00000000' was not declared in this scope
+
+  118 |     B00000000,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:118:5: note: the macro 'B00000000' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:30: note: it was later defined here
+
+   30 | #define B00000000 0
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:119:5: error: 'B11111111' was not declared in this scope
+
+  119 |     B11111111,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:119:5: note: the macro 'B11111111' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:532: note: it was later defined here
+
+  532 | #define B11111111 255
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:120:5: error: 'B00000000' was not declared in this scope
+
+  120 |     B00000000,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:120:5: note: the macro 'B00000000' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:30: note: it was later defined here
+
+   30 | #define B00000000 0
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:121:5: error: 'B11111111' was not declared in this scope
+
+  121 |     B11111111,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:121:5: note: the macro 'B11111111' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:532: note: it was later defined here
+
+  532 | #define B11111111 255
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:122:5: error: 'B00000000' was not declared in this scope
+
+  122 |     B00000000,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:122:5: note: the macro 'B00000000' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:30: note: it was later defined here
+
+   30 | #define B00000000 0
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:123:5: error: 'B11111111' was not declared in this scope
+
+  123 |     B11111111,
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:123:5: note: the macro 'B11111111' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:532: note: it was later defined here
+
+  532 | #define B11111111 255
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+animations.h:124:5: error: 'B00000000' was not declared in this scope
+
+  124 |     B00000000  // Frame 8
+
+      |     ^~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:124:5: note: the macro 'B00000000' had not yet been defined
+
+In file included from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:38,
+
+                 from C:\Users\User\Documents\Arduino\libraries\MD_MAX72XX\src/MD_MAX72xx.h:48,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.h:6,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/binary.h:30: note: it was later defined here
+
+   30 | #define B00000000 0
+
+      | 
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:4:
+
+display.h:43:5: error: 'EFFECT_NONE' conflicts with a previous declaration
+
+   43 |     EFFECT_NONE,
+
+      |     ^~~~~~~~~~~
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:177:5: note: previous declaration 'AnimationEffect EFFECT_NONE'
+
+  177 |     EFFECT_NONE,
+
+      |     ^~~~~~~~~~~
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:4:
+
+display.h:48:5: error: 'EFFECT_BLINK' conflicts with a previous declaration
+
+   48 |     EFFECT_BLINK,
+
+      |     ^~~~~~~~~~~~
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:179:5: note: previous declaration 'AnimationEffect EFFECT_BLINK'
+
+  179 |     EFFECT_BLINK,
+
+      |     ^~~~~~~~~~~~
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:4:
+
+display.h:49:5: error: 'EFFECT_PULSE' conflicts with a previous declaration
+
+   49 |     EFFECT_PULSE,
+
+      |     ^~~~~~~~~~~~
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:1:
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:181:5: note: previous declaration 'AnimationEffect EFFECT_PULSE'
+
+  181 |     EFFECT_PULSE
+
+      |     ^~~~~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.cpp: In function 'void updateAnimation(AnimationState*)':
+
+animations.cpp:120:17: error: 'updateProgressiveFrame' was not declared in this scope
+
+  120 |                 updateProgressiveFrame(state);
+
+      |                 ^~~~~~~~~~~~~~~~~~~~~~
+
+animations.cpp:125:17: error: 'updateSeinFrame' was not declared in this scope
+
+  125 |                 updateSeinFrame(state);
+
+      |                 ^~~~~~~~~~~~~~~
+
+animations.cpp:130:17: error: 'updateHazardFrame' was not declared in this scope
+
+  130 |                 updateHazardFrame(state);
+
+      |                 ^~~~~~~~~~~~~~~~~
+
+animations.cpp:134:17: error: 'updateDefaultFrame' was not declared in this scope
+
+  134 |                 updateDefaultFrame(state);
+
+      |                 ^~~~~~~~~~~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.cpp: In function 'void updateBrightness()':
+
+animations.cpp:271:83: error: no matching function for call to 'min(int, uint8_t&)'
+
+  271 |             currentBrightness = min(currentBrightness + fadeStep, targetBrightness);
+
+      |                                                                                   ^
+
+In file included from c:\users\user\documents\arduinodata\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.1.0-gcc10.3-e5f9fec\xtensa-lx106-elf\include\c++\10.3.0\algorithm:62,
+
+                 from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:229,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+c:\users\user\documents\arduinodata\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.1.0-gcc10.3-e5f9fec\xtensa-lx106-elf\include\c++\10.3.0\bits\stl_algo.h:3479:5: note: candidate: 'template<class _Tp, class _Compare> constexpr _Tp std::min(std::initializer_list<_Tp>, _Compare)'
+
+ 3479 |     min(initializer_list<_Tp> __l, _Compare __comp)
+
+      |     ^~~
+
+c:\users\user\documents\arduinodata\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.1.0-gcc10.3-e5f9fec\xtensa-lx106-elf\include\c++\10.3.0\bits\stl_algo.h:3479:5: note:   template argument deduction/substitution failed:
+
+C:\Users\User\Documents\Arduino\60animasi\animations.cpp:271:83: note:   mismatched types 'std::initializer_list<_Tp>' and 'int'
+
+  271 |             currentBrightness = min(currentBrightness + fadeStep, targetBrightness);
+
+      |                                                                                   ^
+
+In file included from c:\users\user\documents\arduinodata\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.1.0-gcc10.3-e5f9fec\xtensa-lx106-elf\include\c++\10.3.0\algorithm:62,
+
+                 from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:229,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+c:\users\user\documents\arduinodata\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.1.0-gcc10.3-e5f9fec\xtensa-lx106-elf\include\c++\10.3.0\bits\stl_algo.h:3473:5: note: candidate: 'template<class _Tp> constexpr _Tp std::min(std::initializer_list<_Tp>)'
+
+ 3473 |     min(initializer_list<_Tp> __l)
+
+      |     ^~~
+
+c:\users\user\documents\arduinodata\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.1.0-gcc10.3-e5f9fec\xtensa-lx106-elf\include\c++\10.3.0\bits\stl_algo.h:3473:5: note:   template argument deduction/substitution failed:
+
+C:\Users\User\Documents\Arduino\60animasi\animations.cpp:271:83: note:   mismatched types 'std::initializer_list<_Tp>' and 'int'
+
+  271 |             currentBrightness = min(currentBrightness + fadeStep, targetBrightness);
+
+      |                                                                                   ^
+
+In file included from c:\users\user\documents\arduinodata\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.1.0-gcc10.3-e5f9fec\xtensa-lx106-elf\include\c++\10.3.0\bits\specfun.h:45,
+
+                 from c:\users\user\documents\arduinodata\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.1.0-gcc10.3-e5f9fec\xtensa-lx106-elf\include\c++\10.3.0\cmath:1927,
+
+                 from c:\users\user\documents\arduinodata\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.1.0-gcc10.3-e5f9fec\xtensa-lx106-elf\include\c++\10.3.0\math.h:36,
+
+                 from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:34,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+c:\users\user\documents\arduinodata\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.1.0-gcc10.3-e5f9fec\xtensa-lx106-elf\include\c++\10.3.0\bits\stl_algobase.h:278:5: note: candidate: 'template<class _Tp, class _Compare> constexpr const _Tp& std::min(const _Tp&, const _Tp&, _Compare)'
+
+  278 |     min(const _Tp& __a, const _Tp& __b, _Compare __comp)
+
+      |     ^~~
+
+c:\users\user\documents\arduinodata\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.1.0-gcc10.3-e5f9fec\xtensa-lx106-elf\include\c++\10.3.0\bits\stl_algobase.h:278:5: note:   template argument deduction/substitution failed:
+
+C:\Users\User\Documents\Arduino\60animasi\animations.cpp:271:83: note:   deduced conflicting types for parameter 'const _Tp' ('int' and 'uint8_t' {aka 'unsigned char'})
+
+  271 |             currentBrightness = min(currentBrightness + fadeStep, targetBrightness);
+
+      |                                                                                   ^
+
+In file included from c:\users\user\documents\arduinodata\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.1.0-gcc10.3-e5f9fec\xtensa-lx106-elf\include\c++\10.3.0\bits\specfun.h:45,
+
+                 from c:\users\user\documents\arduinodata\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.1.0-gcc10.3-e5f9fec\xtensa-lx106-elf\include\c++\10.3.0\cmath:1927,
+
+                 from c:\users\user\documents\arduinodata\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.1.0-gcc10.3-e5f9fec\xtensa-lx106-elf\include\c++\10.3.0\math.h:36,
+
+                 from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:34,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+c:\users\user\documents\arduinodata\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.1.0-gcc10.3-e5f9fec\xtensa-lx106-elf\include\c++\10.3.0\bits\stl_algobase.h:230:5: note: candidate: 'template<class _Tp> constexpr const _Tp& std::min(const _Tp&, const _Tp&)'
+
+  230 |     min(const _Tp& __a, const _Tp& __b)
+
+      |     ^~~
+
+c:\users\user\documents\arduinodata\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.1.0-gcc10.3-e5f9fec\xtensa-lx106-elf\include\c++\10.3.0\bits\stl_algobase.h:230:5: note:   template argument deduction/substitution failed:
+
+C:\Users\User\Documents\Arduino\60animasi\animations.cpp:271:83: note:   deduced conflicting types for parameter 'const _Tp' ('int' and 'uint8_t' {aka 'unsigned char'})
+
+  271 |             currentBrightness = min(currentBrightness + fadeStep, targetBrightness);
+
+      |                                                                                   ^
+
+animations.cpp:273:83: error: no matching function for call to 'max(int, uint8_t&)'
+
+  273 |             currentBrightness = max(currentBrightness - fadeStep, targetBrightness);
+
+      |                                                                                   ^
+
+In file included from c:\users\user\documents\arduinodata\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.1.0-gcc10.3-e5f9fec\xtensa-lx106-elf\include\c++\10.3.0\algorithm:62,
+
+                 from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:229,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+c:\users\user\documents\arduinodata\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.1.0-gcc10.3-e5f9fec\xtensa-lx106-elf\include\c++\10.3.0\bits\stl_algo.h:3491:5: note: candidate: 'template<class _Tp, class _Compare> constexpr _Tp std::max(std::initializer_list<_Tp>, _Compare)'
+
+ 3491 |     max(initializer_list<_Tp> __l, _Compare __comp)
+
+      |     ^~~
+
+c:\users\user\documents\arduinodata\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.1.0-gcc10.3-e5f9fec\xtensa-lx106-elf\include\c++\10.3.0\bits\stl_algo.h:3491:5: note:   template argument deduction/substitution failed:
+
+C:\Users\User\Documents\Arduino\60animasi\animations.cpp:273:83: note:   mismatched types 'std::initializer_list<_Tp>' and 'int'
+
+  273 |             currentBrightness = max(currentBrightness - fadeStep, targetBrightness);
+
+      |                                                                                   ^
+
+In file included from c:\users\user\documents\arduinodata\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.1.0-gcc10.3-e5f9fec\xtensa-lx106-elf\include\c++\10.3.0\algorithm:62,
+
+                 from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:229,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+c:\users\user\documents\arduinodata\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.1.0-gcc10.3-e5f9fec\xtensa-lx106-elf\include\c++\10.3.0\bits\stl_algo.h:3485:5: note: candidate: 'template<class _Tp> constexpr _Tp std::max(std::initializer_list<_Tp>)'
+
+ 3485 |     max(initializer_list<_Tp> __l)
+
+      |     ^~~
+
+c:\users\user\documents\arduinodata\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.1.0-gcc10.3-e5f9fec\xtensa-lx106-elf\include\c++\10.3.0\bits\stl_algo.h:3485:5: note:   template argument deduction/substitution failed:
+
+C:\Users\User\Documents\Arduino\60animasi\animations.cpp:273:83: note:   mismatched types 'std::initializer_list<_Tp>' and 'int'
+
+  273 |             currentBrightness = max(currentBrightness - fadeStep, targetBrightness);
+
+      |                                                                                   ^
+
+In file included from c:\users\user\documents\arduinodata\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.1.0-gcc10.3-e5f9fec\xtensa-lx106-elf\include\c++\10.3.0\bits\specfun.h:45,
+
+                 from c:\users\user\documents\arduinodata\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.1.0-gcc10.3-e5f9fec\xtensa-lx106-elf\include\c++\10.3.0\cmath:1927,
+
+                 from c:\users\user\documents\arduinodata\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.1.0-gcc10.3-e5f9fec\xtensa-lx106-elf\include\c++\10.3.0\math.h:36,
+
+                 from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:34,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+c:\users\user\documents\arduinodata\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.1.0-gcc10.3-e5f9fec\xtensa-lx106-elf\include\c++\10.3.0\bits\stl_algobase.h:300:5: note: candidate: 'template<class _Tp, class _Compare> constexpr const _Tp& std::max(const _Tp&, const _Tp&, _Compare)'
+
+  300 |     max(const _Tp& __a, const _Tp& __b, _Compare __comp)
+
+      |     ^~~
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+display.h:43:5: error: 'EFFECT_NONE' conflicts with a previous declaration
+
+   43 |     EFFECT_NONE,
+
+      |     ^~~~~~~~~~~
+
+c:\users\user\documents\arduinodata\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.1.0-gcc10.3-e5f9fec\xtensa-lx106-elf\include\c++\10.3.0\bits\stl_algobase.h:300:5: note:   template argument deduction/substitution failed:
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:177:5: note: previous declaration 'AnimationEffect EFFECT_NONE'
+
+  177 |     EFFECT_NONE,
+
+      |     ^~~~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.cpp:273:83: note:   deduced conflicting types for parameter 'const _Tp' ('int' and 'uint8_t' {aka 'unsigned char'})
+
+  273 |             currentBrightness = max(currentBrightness - fadeStep, targetBrightness);
+
+      |                                                                                   ^
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+display.h:48:5: error: 'EFFECT_BLINK' conflicts with a previous declaration
+
+   48 |     EFFECT_BLINK,
+
+      |     ^~~~~~~~~~~~
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:179:5: note: previous declaration 'AnimationEffect EFFECT_BLINK'
+
+  179 |     EFFECT_BLINK,
+
+      |     ^~~~~~~~~~~~
+
+In file included from c:\users\user\documents\arduinodata\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.1.0-gcc10.3-e5f9fec\xtensa-lx106-elf\include\c++\10.3.0\bits\specfun.h:45,
+
+                 from c:\users\user\documents\arduinodata\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.1.0-gcc10.3-e5f9fec\xtensa-lx106-elf\include\c++\10.3.0\cmath:1927,
+
+                 from c:\users\user\documents\arduinodata\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.1.0-gcc10.3-e5f9fec\xtensa-lx106-elf\include\c++\10.3.0\math.h:36,
+
+                 from C:\Users\User\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.1.2\cores\esp8266/Arduino.h:34,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\animations.cpp:3:
+
+c:\users\user\documents\arduinodata\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.1.0-gcc10.3-e5f9fec\xtensa-lx106-elf\include\c++\10.3.0\bits\stl_algobase.h:254:5: note: candidate: 'template<class _Tp> constexpr const _Tp& std::max(const _Tp&, const _Tp&)'
+
+  254 |     max(const _Tp& __a, const _Tp& __b)
+
+      |     ^~~
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+display.h:49:5: error: 'EFFECT_PULSE' conflicts with a previous declaration
+
+   49 |     EFFECT_PULSE,
+
+      |     ^~~~~~~~~~~~
+
+c:\users\user\documents\arduinodata\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.1.0-gcc10.3-e5f9fec\xtensa-lx106-elf\include\c++\10.3.0\bits\stl_algobase.h:254:5: note:   template argument deduction/substitution failed:
+
+In file included from C:\Users\User\Documents\Arduino\60animasi\display.h:5,
+
+                 from C:\Users\User\Documents\Arduino\60animasi\display.cpp:1:
+
+C:\Users\User\Documents\Arduino\60animasi\animations.h:181:5: note: previous declaration 'AnimationEffect EFFECT_PULSE'
+
+  181 |     EFFECT_PULSE
+
+      |     ^~~~~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.cpp:273:83: note:   deduced conflicting types for parameter 'const _Tp' ('int' and 'uint8_t' {aka 'unsigned char'})
+
+  273 |             currentBrightness = max(currentBrightness - fadeStep, targetBrightness);
+
+      |                                                                                   ^
+
+animations.cpp:275:9: error: 'display' was not declared in this scope; did you mean 'delay'?
+
+  275 |         display.setBrightness(currentBrightness);
+
+      |         ^~~~~~~
+
+      |         delay
+
+C:\Users\User\Documents\Arduino\60animasi\display.cpp: In function 'void initDisplay()':
+
+display.cpp:4:5: error: 'matrix' was not declared in this scope
+
+    4 |     matrix.begin();
+
+      |     ^~~~~~
+
+display.cpp:5:5: error: 'display' was not declared in this scope; did you mean 'delay'?
+
+    5 |     display.begin();
+
+      |     ^~~~~~~
+
+      |     delay
+
+C:\Users\User\Documents\Arduino\60animasi\display.cpp: In function 'void clearDisplay()':
+
+display.cpp:11:5: error: 'matrix' was not declared in this scope
+
+   11 |     matrix.clear();
+
+      |     ^~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\animations.cpp: In function 'void drawScrollingText()':
+
+animations.cpp:378:13: error: 'drawChar' was not declared in this scope
+
+  378 |             drawChar(*text, xPos, 0);
+
+      |             ^~~~~~~~
+
+display.cpp:12:5: error: 'display' was not declared in this scope; did you mean 'delay'?
+
+   12 |     display.displayClear();
+
+      |     ^~~~~~~
+
+      |     delay
+
+C:\Users\User\Documents\Arduino\60animasi\display.cpp: In function 'void updateDisplay()':
+
+display.cpp:16:5: error: 'display' was not declared in this scope; did you mean 'delay'?
+
+   16 |     display.displayAnimate();
+
+      |     ^~~~~~~
+
+      |     delay
+
+C:\Users\User\Documents\Arduino\60animasi\display.cpp: In function 'void setPixel(uint8_t, uint8_t, bool)':
+
+display.cpp:20:5: error: 'matrix' was not declared in this scope
+
+   20 |     matrix.setPoint(y, x, state);
+
+      |     ^~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\display.cpp: In function 'void drawPattern(const uint8_t*)':
+
+display.cpp:25:9: error: 'matrix' was not declared in this scope
+
+   25 |         matrix.setRow(0, row, pattern[row]);
+
+      |         ^~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\display.cpp: In function 'void scrollText(const char*)':
+
+display.cpp:30:5: error: 'display' was not declared in this scope; did you mean 'delay'?
+
+   30 |     display.displayText(text, PA_CENTER, 100, 0, PA_SCROLL_LEFT, PA_SCROLL_LEFT);
+
+      |     ^~~~~~~
+
+      |     delay
+
+C:\Users\User\Documents\Arduino\60animasi\display.cpp: In function 'void setBrightness(uint8_t)':
+
+display.cpp:35:5: error: 'matrix' was not declared in this scope
+
+   35 |     matrix.control(MD_MAX72XX::INTENSITY, intensity);
+
+      |     ^~~~~~
+
+display.cpp:36:5: error: 'display' was not declared in this scope; did you mean 'delay'?
+
+   36 |     display.setIntensity(intensity);
+
+      |     ^~~~~~~
+
+      |     delay
+
+C:\Users\User\Documents\Arduino\60animasi\display.cpp: In function 'void setAnimation(uint8_t)':
+
+display.cpp:42:14: error: 'SEIN_KIRI' was not declared in this scope
+
+   42 |         case SEIN_KIRI:
+
+      |              ^~~~~~~~~
+
+display.cpp:45:14: error: 'SEIN_KANAN' was not declared in this scope
+
+   45 |         case SEIN_KANAN:
+
+      |              ^~~~~~~~~~
+
+display.cpp:48:14: error: 'HAZARD' was not declared in this scope
+
+   48 |         case HAZARD:
+
+      |              ^~~~~~
+
+display.cpp:51:14: error: 'REM' was not declared in this scope
+
+   51 |         case REM:
+
+      |              ^~~
+
+60animasi:89:1: error: 'Current' does not name a type
+
+   89 | Current Date: 2025-05-09 20:30:05 UTC
+
+      | ^~~~~~~
+
+60animasi:175:1: error: 'Settings' does not name a type; did you mean 'SPISettings'?
+
+  175 | Settings settings;
+
+      | ^~~~~~~~
+
+      | SPISettings
+
+60animasi:504:6: error: ambiguating new declaration of 'bool loadSettingsFromEEPROM()'
+
+  504 | bool loadSettingsFromEEPROM() {
+
+      |      ^~~~~~~~~~~~~~~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\60animasi.ino:202:6: note: old declaration 'void loadSettingsFromEEPROM()'
+
+  202 | void loadSettingsFromEEPROM();
+
+      |      ^~~~~~~~~~~~~~~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\60animasi.ino: In function 'void errorHandler(uint8_t)':
+
+60animasi:238:5: error: 'displayPattern' was not declared in this scope
+
+  238 |     displayPattern(errorPattern);
+
+      |     ^~~~~~~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\60animasi.ino: In function 'void saveSettings()':
+
+60animasi:252:21: error: a function-definition is not allowed here before '{' token
+
+  252 | void saveSettings() {
+
+      |                     ^
+
+C:\Users\User\Documents\Arduino\60animasi\60animasi.ino: In function 'void loadSettings()':
+
+60animasi:276:21: error: a function-definition is not allowed here before '{' token
+
+  276 | void loadSettings() {
+
+      |                     ^
+
+C:\Users\User\Documents\Arduino\60animasi\60animasi.ino: In function 'void updateSettings()':
+
+60animasi:321:72: error: a function-definition is not allowed here before '{' token
+
+  321 | void updateSettings(uint8_t brightness, uint8_t pattern, uint8_t mode) {
+
+      |                                                                        ^
+
+C:\Users\User\Documents\Arduino\60animasi\60animasi.ino: In function 'void setup()':
+
+60animasi:363:18: error: a function-definition is not allowed here before '{' token
+
+  363 |     void setup() {
+
+      |                  ^
+
+C:\Users\User\Documents\Arduino\60animasi\60animasi.ino: At global scope:
+
+60animasi:391:6: error: redefinition of 'void setup()'
+
+  391 | void setup() {
+
+      |      ^~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\60animasi.ino:361:6: note: 'void setup()' previously defined here
+
+  361 | void setup() {
+
+      |      ^~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\60animasi.ino: In function 'void setup()':
+
+60animasi:419:32: error: could not convert 'loadSettingsFromEEPROM()' from 'void' to 'bool'
+
+  419 |     if (!loadSettingsFromEEPROM()) {
+
+      |          ~~~~~~~~~~~~~~~~~~~~~~^~
+
+      |                                |
+
+      |                                void
+
+60animasi:419:32: error: in argument to unary !
+
+C:\Users\User\Documents\Arduino\60animasi\60animasi.ino: In function 'void initializeDisplay()':
+
+60animasi:453:28: error: 'settings' was not declared in this scope
+
+  453 |         lc.setIntensity(i, settings.brightness);
+
+      |                            ^~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\60animasi.ino: In function 'void loadDefaultSettings()':
+
+60animasi:460:5: error: 'settings' was not declared in this scope
+
+  460 |     settings.startupMode = MODE_TEXT;
+
+      |     ^~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\60animasi.ino: At global scope:
+
+60animasi:504:6: error: ambiguating new declaration of 'bool loadSettingsFromEEPROM()'
+
+  504 | bool loadSettingsFromEEPROM() {
+
+      |      ^~~~~~~~~~~~~~~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\60animasi.ino:202:6: note: old declaration 'void loadSettingsFromEEPROM()'
+
+  202 | void loadSettingsFromEEPROM();
+
+      |      ^~~~~~~~~~~~~~~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\60animasi.ino: In function 'bool loadSettingsFromEEPROM()':
+
+60animasi:512:36: error: 'settings' was not declared in this scope
+
+  512 |     EEPROM.get(SETTINGS_BASE_ADDR, settings);
+
+      |                                    ^~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\60animasi.ino: In function 'void saveSettingsToEEPROM()':
+
+60animasi:529:36: error: 'settings' was not declared in this scope
+
+  529 |     EEPROM.put(SETTINGS_BASE_ADDR, settings);
+
+      |                                    ^~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\60animasi.ino: In function 'void initializeState()':
+
+60animasi:540:32: error: 'settings' was not declared in this scope
+
+  540 |     stateManager.startupMode = settings.startupMode;
+
+      |                                ^~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\60animasi.ino: In function 'void displayStartupAnimation()':
+
+60animasi:566:44: error: 'settings' was not declared in this scope
+
+  566 |     for (int brightness = 0; brightness <= settings.brightness; brightness++) {
+
+      |                                            ^~~~~~~~
+
+60animasi:570:9: error: 'displayScrollingText' was not declared in this scope
+
+  570 |         displayScrollingText("STOPLAMP BRODOT v2.0", false);
+
+      |         ^~~~~~~~~~~~~~~~~~~~
+
+60animasi:577:28: error: 'settings' was not declared in this scope
+
+  577 |         lc.setIntensity(i, settings.brightness);
+
+      |                            ^~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\60animasi.ino: In function 'void displayAnimation()':
+
+60animasi:583:43: error: 'settings' was not declared in this scope
+
+  583 |     if (millis() - lastAnimationUpdate >= settings.animationSpeed) {
+
+      |                                           ^~~~~~~~
+
+60animasi:584:44: error: 'ANIMATION_PATTERNS' was not declared in this scope; did you mean 'ANIMATION_ADDR'?
+
+  584 |         uint8_t* currentAnimationPattern = ANIMATION_PATTERNS[animSettings.selectedPatterns[animSettings.currentPattern]];
+
+      |                                            ^~~~~~~~~~~~~~~~~~
+
+      |                                            ANIMATION_ADDR
+
+C:\Users\User\Documents\Arduino\60animasi\60animasi.ino: In function 'void updateSeinDisplay()':
+
+60animasi:629:13: error: 'displayProgressiveArrow' was not declared in this scope; did you mean 'displayProgressiveBrake'?
+
+  629 |             displayProgressiveArrow();
+
+      |             ^~~~~~~~~~~~~~~~~~~~~~~
+
+      |             displayProgressiveBrake
+
+60animasi:632:13: error: 'displayPulseArrow' was not declared in this scope; did you mean 'displayEdgeArrow'?
+
+  632 |             displayPulseArrow();
+
+      |             ^~~~~~~~~~~~~~~~~
+
+      |             displayEdgeArrow
+
+60animasi:635:13: error: 'displayDoubleArrow' was not declared in this scope; did you mean 'displayEdgeArrow'?
+
+  635 |             displayDoubleArrow();
+
+      |             ^~~~~~~~~~~~~~~~~~
+
+      |             displayEdgeArrow
+
+60animasi:638:13: error: 'displayRunningLight' was not declared in this scope
+
+  638 |             displayRunningLight();
+
+      |             ^~~~~~~~~~~~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\60animasi.ino: In function 'void updateBrakeDisplay()':
+
+60animasi:720:13: error: 'displayEmergencyBrake' was not declared in this scope; did you mean 'displayWarningBrake'?
+
+  720 |             displayEmergencyBrake();
+
+      |             ^~~~~~~~~~~~~~~~~~~~~
+
+      |             displayWarningBrake
+
+60animasi:723:13: error: 'displaySmoothBrake' was not declared in this scope; did you mean 'displayFullBrake'?
+
+  723 |             displaySmoothBrake();
+
+      |             ^~~~~~~~~~~~~~~~~~
+
+      |             displayFullBrake
+
+60animasi:726:13: error: 'displayStopMode' was not declared in this scope
+
+  726 |             displayStopMode();
+
+      |             ^~~~~~~~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\60animasi.ino: In function 'void displayScrollingText(const char*, bool)':
+
+60animasi:818:50: error: 'settings' was not declared in this scope
+
+  818 |     if (scroll && millis() - lastScrollUpdate >= settings.textSpeed) {
+
+      |                                                  ^~~~~~~~
+
+60animasi:834:42: error: 'getCharacterPattern' was not declared in this scope
+
+  834 |             const uint8_t* charPattern = getCharacterPattern(currentChar);
+
+      |                                          ^~~~~~~~~~~~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\60animasi.ino: In function 'void loop()':
+
+60animasi:872:21: error: 'settings' was not declared in this scope
+
+  872 |             switch (settings.startupMode) {
+
+      |                     ^~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\60animasi.ino: In function 'void handleInput()':
+
+60animasi:908:13: error: 'initializeBrakeMode' was not declared in this scope; did you mean 'initializeState'?
+
+  908 |             initializeBrakeMode();
+
+      |             ^~~~~~~~~~~~~~~~~~~
+
+      |             initializeState
+
+60animasi:922:9: error: 'initializeSeinMode' was not declared in this scope; did you mean 'initializeState'?
+
+  922 |         initializeSeinMode();
+
+      |         ^~~~~~~~~~~~~~~~~~
+
+      |         initializeState
+
+60animasi:927:9: error: 'initializeSeinMode' was not declared in this scope; did you mean 'initializeState'?
+
+  927 |         initializeSeinMode();
+
+      |         ^~~~~~~~~~~~~~~~~~
+
+      |         initializeState
+
+60animasi:932:9: error: 'initializeSeinMode' was not declared in this scope; did you mean 'initializeState'?
+
+  932 |         initializeSeinMode();
+
+      |         ^~~~~~~~~~~~~~~~~~
+
+      |         initializeState
+
+C:\Users\User\Documents\Arduino\60animasi\60animasi.ino: In function 'void setupWebServer()':
+
+60animasi:946:39: error: 'handleGetAnimation' was not declared in this scope
+
+  946 |     server.on("/animation", HTTP_GET, handleGetAnimation);
+
+      |                                       ^~~~~~~~~~~~~~~~~~
+
+60animasi:947:40: error: 'handlePostAnimation' was not declared in this scope
+
+  947 |     server.on("/animation", HTTP_POST, handlePostAnimation);
+
+      |                                        ^~~~~~~~~~~~~~~~~~~
+
+60animasi:948:35: error: 'handleGetBrake' was not declared in this scope
+
+  948 |     server.on("/brake", HTTP_GET, handleGetBrake);
+
+      |                                   ^~~~~~~~~~~~~~
+
+60animasi:949:36: error: 'handlePostBrake' was not declared in this scope
+
+  949 |     server.on("/brake", HTTP_POST, handlePostBrake);
+
+      |                                    ^~~~~~~~~~~~~~~
+
+60animasi:950:34: error: 'handleGetSein' was not declared in this scope; did you mean 'handleGetSettings'?
+
+  950 |     server.on("/sein", HTTP_GET, handleGetSein);
+
+      |                                  ^~~~~~~~~~~~~
+
+      |                                  handleGetSettings
+
+60animasi:951:35: error: 'handlePostSein' was not declared in this scope; did you mean 'handlePostSettings'?
+
+  951 |     server.on("/sein", HTTP_POST, handlePostSein);
+
+      |                                   ^~~~~~~~~~~~~~
+
+      |                                   handlePostSettings
+
+C:\Users\User\Documents\Arduino\60animasi\60animasi.ino: In function 'void handleGetSettings()':
+
+60animasi:972:26: error: 'settings' was not declared in this scope
+
+  972 |     doc["startupMode"] = settings.startupMode;
+
+      |                          ^~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\60animasi.ino: In function 'void handlePostSettings()':
+
+60animasi:1000:9: error: 'settings' was not declared in this scope
+
+ 1000 |         settings.startupMode = doc["startupMode"];
+
+      |         ^~~~~~~~
+
+60animasi:1003:9: error: 'settings' was not declared in this scope
+
+ 1003 |         settings.brightness = constrain(doc["brightness"], 0, MAX_BRIGHTNESS);
+
+      |         ^~~~~~~~
+
+60animasi:1009:9: error: 'settings' was not declared in this scope
+
+ 1009 |         settings.textSpeed = constrain(doc["textSpeed"], MIN_SPEED, MAX_SPEED);
+
+      |         ^~~~~~~~
+
+60animasi:1012:9: error: 'settings' was not declared in this scope
+
+ 1012 |         settings.animationSpeed = constrain(doc["animationSpeed"], MIN_SPEED, MAX_SPEED);
+
+      |         ^~~~~~~~
+
+60animasi:1015:17: error: 'settings' was not declared in this scope
+
+ 1015 |         strlcpy(settings.customText, doc["customText"], MAX_TEXT_LENGTH);
+
+      |                 ^~~~~~~~
+
+60animasi:1018:9: error: 'settings' was not declared in this scope
+
+ 1018 |         settings.wifiEnabled = doc["wifiEnabled"];
+
+      |         ^~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\60animasi.ino: In function 'void initializeWiFi()':
+
+60animasi:1052:10: error: 'settings' was not declared in this scope
+
+ 1052 |     if (!settings.wifiEnabled) {
+
+      |          ^~~~~~~~
+
+60animasi:1057:17: error: 'settings' was not declared in this scope
+
+ 1057 |     WiFi.softAP(settings.wifiSSID, settings.wifiPass);
+
+      |                 ^~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\60animasi.ino: At global scope:
+
+60animasi:1870:1: error: expected '}' before 'void'
+
+ 1870 | void leftSignal() {
+
+      | ^~~~
+
+C:\Users\User\Documents\Arduino\60animasi\60animasi.ino:1146:44: note: to match this '{'
+
+ 1146 | const uint8_t ANIMATION_PATTERNS[60][64] = {
+
+      |                                            ^
+
+60animasi:1870:1: error: expected ',' or ';' before 'void'
+
+ 1870 | void leftSignal() {
+
+      | ^~~~
+
+C:\Users\User\Documents\Arduino\60animasi\60animasi.ino: In function 'void rightSignal()':
+
+60animasi:1907:13: error: 'displayPattern' was not declared in this scope
+
+ 1907 |             displayPattern(rightPattern);
+
+      |             ^~~~~~~~~~~~~~
+
+60animasi:1910:13: error: 'clearDisplay' was not declared in this scope; did you mean 'clearAllDisplays'?
+
+ 1910 |             clearDisplay();
+
+      |             ^~~~~~~~~~~~
+
+      |             clearAllDisplays
+
+C:\Users\User\Documents\Arduino\60animasi\60animasi.ino: In function 'void brakeLight()':
+
+60animasi:1930:9: error: 'setIntensity' was not declared in this scope; did you mean 'intensity'?
+
+ 1930 |         setIntensity(intensity);
+
+      |         ^~~~~~~~~~~~
+
+      |         intensity
+
+60animasi:1931:9: error: 'displayPattern' was not declared in this scope
+
+ 1931 |         displayPattern(brakePattern);
+
+      |         ^~~~~~~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\60animasi.ino: In function 'void hazardLight()':
+
+60animasi:1960:13: error: 'displayPattern' was not declared in this scope
+
+ 1960 |             displayPattern(hazardPattern);
+
+      |             ^~~~~~~~~~~~~~
+
+60animasi:1963:13: error: 'clearDisplay' was not declared in this scope; did you mean 'clearAllDisplays'?
+
+ 1963 |             clearDisplay();
+
+      |             ^~~~~~~~~~~~
+
+      |             clearAllDisplays
+
+C:\Users\User\Documents\Arduino\60animasi\60animasi.ino: In function 'void parkingLight()':
+
+60animasi:1981:9: error: 'setIntensity' was not declared in this scope
+
+ 1981 |         setIntensity(3); // Intensitas rendah
+
+      |         ^~~~~~~~~~~~
+
+60animasi:1982:9: error: 'displayPattern' was not declared in this scope
+
+ 1982 |         displayPattern(parkingPattern);
+
+      |         ^~~~~~~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\60animasi.ino: In function 'void customPattern(uint8_t)':
+
+60animasi:1988:24: error: 'NUM_PATTERNS' was not declared in this scope; did you mean 'FONT_PATTERNS'?
+
+ 1988 |     if (patternIndex < NUM_PATTERNS) {
+
+      |                        ^~~~~~~~~~~~
+
+      |                        FONT_PATTERNS
+
+60animasi:1989:24: error: 'patterns' was not declared in this scope
+
+ 1989 |         displayPattern(patterns[patternIndex]);
+
+      |                        ^~~~~~~~
+
+60animasi:1989:9: error: 'displayPattern' was not declared in this scope
+
+ 1989 |         displayPattern(patterns[patternIndex]);
+
+      |         ^~~~~~~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\60animasi.ino: In function 'void setBrightness(uint8_t)':
+
+60animasi:1996:9: error: 'setIntensity' was not declared in this scope
+
+ 1996 |         setIntensity(level);
+
+      |         ^~~~~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\60animasi.ino: In function 'void transitionEffect(uint8_t*, uint8_t*)':
+
+60animasi:2004:9: error: 'setIntensity' was not declared in this scope
+
+ 2004 |         setIntensity(i);
+
+      |         ^~~~~~~~~~~~
+
+60animasi:2005:9: error: 'displayPattern' was not declared in this scope
+
+ 2005 |         displayPattern(oldPattern);
+
+      |         ^~~~~~~~~~~~~~
+
+60animasi:2011:9: error: 'setIntensity' was not declared in this scope
+
+ 2011 |         setIntensity(i);
+
+      |         ^~~~~~~~~~~~
+
+60animasi:2012:9: error: 'displayPattern' was not declared in this scope
+
+ 2012 |         displayPattern(newPattern);
+
+      |         ^~~~~~~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\60animasi.ino: In function 'void policeMode()':
+
+60animasi:2032:21: error: 'displayPattern' was not declared in this scope
+
+ 2032 |                     displayPattern(bluePattern);
+
+      |                     ^~~~~~~~~~~~~~
+
+60animasi:2041:21: error: 'displayPattern' was not declared in this scope
+
+ 2041 |                     displayPattern(redPattern);
+
+      |                     ^~~~~~~~~~~~~~
+
+60animasi:2046:17: error: 'clearDisplay' was not declared in this scope; did you mean 'clearAllDisplays'?
+
+ 2046 |                 clearDisplay();
+
+      |                 ^~~~~~~~~~~~
+
+      |                 clearAllDisplays
+
+C:\Users\User\Documents\Arduino\60animasi\60animasi.ino: In function 'void runningLight()':
+
+60animasi:2065:9: error: 'displayPattern' was not declared in this scope
+
+ 2065 |         displayPattern(pattern);
+
+      |         ^~~~~~~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\60animasi.ino: In function 'void nightRiderEffect()':
+
+60animasi:2087:9: error: 'displayPattern' was not declared in this scope
+
+ 2087 |         displayPattern(pattern);
+
+      |         ^~~~~~~~~~~~~~
+
+C:\Users\User\Documents\Arduino\60animasi\60animasi.ino: In function 'void strobeEffect()':
+
+60animasi:2113:13: error: 'setIntensity' was not declared in this scope
+
+ 2113 |             setIntensity(15); // Full brightness
+
+      |             ^~~~~~~~~~~~
+
+60animasi:2114:13: error: 'displayPattern' was not declared in this scope
+
+ 2114 |             displayPattern(pattern);
+
+      |             ^~~~~~~~~~~~~~
+
+60animasi:2116:13: error: 'clearDisplay' was not declared in this scope; did you mean 'clearAllDisplays'?
+
+ 2116 |             clearDisplay();
+
+      |             ^~~~~~~~~~~~
+
+      |             clearAllDisplays
+
+C:\Users\User\Documents\Arduino\60animasi\60animasi.ino: In function 'void smoothAnimation(uint8_t*, uint8_t*, uint16_t)':
+
+60animasi:2140:9: error: 'displayPattern' was not declared in this scope
+
+ 2140 |         displayPattern(interpolatedPattern);
+
+      |         ^~~~~~~~~~~~~~
+
+exit status 1
+
+#endif without #if
+
+
+
+This report would have more information with
+"Show verbose output during compilation"
+option enabled in File -> Preferences.
